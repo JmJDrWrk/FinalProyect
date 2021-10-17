@@ -1,0 +1,135 @@
+/* 
+body {
+    color: rgb(133, 133, 133);
+    background: #17181c;
+    font: 300 1em "Fira Sans", sans-serif;
+    min-height: 1020vh;
+    /* justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+    
+    display: flex; */
+    
+/* }
+button {
+    background: none;
+    border: 2px solid;
+    font: inherit;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    width: 100%;
+  }
+
+  button {
+    color: var(--color);
+    transition: 0.25s;
+  }
+  button:hover, button:focus {
+    border-color: var(--hover);
+    color: #fff;
+  }
+  
+.raise{
+    display: flex;
+}
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+#enabled{
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  width: 35%;
+  color: #003cff;
+  /*background-color: #1eff00;*/
+/* }
+/*
+#disabled{
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  width: min-content;
+  color: #ff0077;
+  background-color: #ff0000;
+}*/
+/*
+#unknown{
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  width: 35%;
+  min-width: 20%;
+  color: #e100ff;
+
+}
+*/
+/*
+#rancolor{
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  width: 35%;
+  min-width: 20%;
+  color: #00eeff;
+
+} */
+
+body{
+  background-color: rgb(26, 26, 26)
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: min-content;
+
+  
+}
+
+
+.raise{
+  color: rgb(141, 141, 141);
+  font: inherit;
+  line-height: 1;
+  margin: 0.2em;
+  padding: 1em 2em;
+  border: 1px solid;
+  border-radius: 12px;
+  border-color: #00ffff81;
+  background-color:rgb(37, 37, 37);
+}
+
+.raise:hover{
+  border-color: #00ffff;
+}
+
+#enabled{
+  color: #28db797e;
+}
+
+#disabled{
+  color: #c9dd1950;
+}
