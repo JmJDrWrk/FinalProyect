@@ -18,15 +18,16 @@ class WindowsInteractuable(object):
     def stdoutTOarray(self,cmd_out):
         cmd_out_converted = []
         for line in cmd_out.stdout.readlines():
-            if(line != ''):
-                line = str(line).replace("b'",'').replace("\\r\\n'",'')
-                line = line.replace('    ', '#').replace('\\','/').replace('//','/')
-                line = line.replace('" ','#').replace('"','')
-                line = line.replace(' -','#-')
-                if(line != ''):
-                    cmd_out_converted.append(line)
-                else:
-                    print('Skipping due to being a null line')
+            print(colored(line, 'magenta'))
+            #if(line != ''):
+            #    line = str(line).replace("b'",'').replace("\\r\\n'",'')
+            #    line = line.replace('    ', '#').replace('\\','/').replace('//','/')
+            #    line = line.replace('" ','#').replace('"','')
+            #    line = line.replace(' -','#-')
+            #    if(line != ''):
+            #        cmd_out_converted.append(line)
+            #    else:
+            #        print('Skipping due to being a null line')
         return cmd_out_converted  
 
     def getproperties(self,object):
