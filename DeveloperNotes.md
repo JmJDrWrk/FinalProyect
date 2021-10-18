@@ -1,3 +1,7 @@
+
+- YOU are in editor mode, to switch to view mode press </>('Cntrl + Shift + V')</>
+
+
 # Estado de desarrollo
 
 - Actualmente estoy desarrollando en paralelo La clase Runnable
